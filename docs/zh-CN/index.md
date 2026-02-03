@@ -91,7 +91,7 @@ WhatsApp / Telegram / Discord / iMessage (+ plugins)
               └─ Android node via Gateway网关 WS + pairing
 ```
 
-大多数操作通过 **Gateway网关** （`openclaw gateway`进行，它是一个长期运行的单进程，负责管理渠道连接和 WebSocket 控制面。
+大多数操作通过 **Gateway网关** （`openclaw gateway`) 进行，它是一个长期运行的单进程，负责管理渠道连接和 WebSocket 控制面。
 
 ## 网络模型
 
@@ -114,7 +114,7 @@ WhatsApp / Telegram / Discord / iMessage (+ plugins)
 - ⏱️ **流式传输与分块** — 区块流传输 + Telegram 草稿流式传输详情（[/concepts/streaming](/concepts/streaming)）
 - 🧠 **多智能体路由** — 将提供商账户/对等方路由到隔离的智能体（工作区 + 每智能体会话）
 - 🔐 **订阅认证** — 通过 OAuth 支持 Anthropic（Claude Pro/Max）+ OpenAI（ChatGPT/Codex）
-- 💬 **会话** — 私聊折叠为共享 `main` （默认）；群组为隔离
+- 💬 **会话** — 私聊折叠为共享 `main`（默认）；群组为隔离
 - 👥 **群聊支持** — 默认基于提及触发；所有者可切换 `/activation always|mention`
 - 📎 **媒体支持** — 收发图片、音频、文档
 - 🎤 **语音消息** — 可选的转录钩子
@@ -246,7 +246,7 @@ openclaw message send --target +15555550123 --message "Hello from OpenClaw"
 
 ---
 
-_"我们都只是在玩弄自己的提示词罢了。"_ — 大概是一个嗑多了 token 的 AI 说的
+_“我们都只是在玩弄自己的提示词罢。”_ — 大概是一个嗑多了 token 的 AI 说的
 
 ## 致谢
 
